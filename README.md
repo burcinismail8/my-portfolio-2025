@@ -1,73 +1,114 @@
-# Welcome to your Lovable project
+# 🧑‍💻 Burchin Ismail – Developer Portfolio
 
-## Project info
+> A modern, clean, and fast developer portfolio built with **Vite + React + TypeScript + Tailwind CSS + Radix UI**.
 
-**URL**: https://lovable.dev/projects/194c20a8-774c-45c0-8c75-eaaa226449d5
+🎯 **Live site:** [https://my-portfolio-2025-pink-five.vercel.app/](https://my-portfolio-2025-pink-five.vercel.app/)
 
-## How can I edit this code?
+![Portfolio Screenshot](./public/Screenshot-PF.png)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ About This Project
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/194c20a8-774c-45c0-8c75-eaaa226449d5) and start prompting.
+This is my **developer portfolio site**, showcasing my:
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🧠 Tech stack & skills
+- 💼 Selected projects
+- 👨‍🔧 Professional background
+- 📫 Contact information
 
-**Use your preferred IDE**
+It’s built for performance, accessibility, and responsiveness — optimized for recruiters, collaborators, and potential clients.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+| Category                 | Tools & Libraries                                |
+| ------------------------ | ------------------------------------------------ |
+| **Frontend**             | React, TypeScript, Vite                          |
+| **Styling**              | Tailwind CSS, Tailwind Typography, ShadCN UI     |
+| **UI Components**        | Radix UI, Lucide Icons                           |
+| **Forms & Validation**   | React Hook Form, Zod                             |
+| **Animation & Feedback** | Tailwind Animate, Sonner Toasts, Vaul Animations |
+| **Charts & Visuals**     | Recharts, Embla Carousel                         |
+| **Routing & State**      | React Router DOM, TanStack Query                 |
+| **Theme Support**        | Dark mode via `next-themes`                      |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📁 Project Structure
 
-# Step 3: Install the necessary dependencies.
-npm i
+```
+vite_react_shadcn_ts/
+├── src/
+│   ├── components/         # Reusable UI components
+│   ├── pages/              # Routes and page layouts
+│   ├── assets/             # Images and static files
+│   ├── lib/                # Utility functions and hooks
+│   ├── config/             # App-wide configuration
+│   └── styles/             # Tailwind and global CSS
+├── public/                 # Public assets
+├── index.html              # Entry HTML
+└── package.json            # Dependencies and scripts
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🚀 Getting Started
+
+To run this portfolio locally:
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/burcinismail8/my-portfolio-2025
+cd your-portfolio
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn
+```
+
+### 3. Start the development server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be running at [http://localhost:5173](http://localhost:5173)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🔍 Features
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- ⚡ Lightning-fast performance with **Vite**
+- 🌙 Dark mode support
+- 📱 Fully responsive design
+- 🛠️ Accessible components (Radix UI)
+- 🧩 Modular codebase
+- 📤 Easy to deploy (Vercel / Netlify / GitHub Pages)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 👤 About Me
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+I’m **Burchin Ismail**, a Full-Stack JavaScript Developer focused on building clean, fast, and scalable web apps using React, Next.js, and Node.js.
 
-## How can I deploy this project?
+🧠 Currently exploring LLMs and autonomous agents.  
+🌍 Based in Plovdiv, Bulgaria
 
-Simply open [Lovable](https://lovable.dev/projects/194c20a8-774c-45c0-8c75-eaaa226449d5) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📫 Contact
 
-Yes, you can!
+- 📧 Email: [burcinismail8@gmail.com](mailto:burcinismail8@gmail.com)
+- 💼 LinkedIn: [https://www.linkedin.com/in/burchin-ismail-8289b7195/](https://www.linkedin.com/in/burchin-ismail-8289b7195/)
+- 🧑‍💻 GitHub: [https://github.com/burcinismail8](https://github.com/burcinismail8)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+> Last updated: September 2025
